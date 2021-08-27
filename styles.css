@@ -61,20 +61,43 @@ body {
   align-items: center;
   justify-self: center;
   text-align: center;
+  color: hsl(224, 23%, 55%);
 }
 
 .details > * {
   margin: 20px 0;
 }
 
-.description {
-  color: hsl(224, 23%, 55%);
+.title {
+  color: hsl(223, 47%, 23%);
 }
 
 .plan {
-  justify-content: center;
+  width: 90%;
+  display: flex;
+  /* justify-content: center; */
+  justify-content: flex-start;
   align-items: center;
-  justify-self: center;
+}
+
+.plan > * {
+  margin: 0 10px;
+}
+
+.pay-plan {
+  justify-content: flex-start;
+  justify-self: flex-start;
+  text-align: start;
+  flex: 2;
+}
+
+.annual-plan {
+  color: hsl(223, 47%, 23%);
+}
+
+.link {
+  text-decoration: none;
+  color: blue;
 }
 
 .pay {
