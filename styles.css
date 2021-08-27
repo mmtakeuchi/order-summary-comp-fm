@@ -1,6 +1,7 @@
 body {
   font-family: "Red Hat Display", sans-serif;
   font-size: 16px;
+  font-weight: 500;
   background: url("./images/pattern-background-desktop.svg");
   background-color: hsl(225, 100%, 94%);
   background-position: center;
@@ -41,7 +42,7 @@ body {
   border: 1px solid black;
   background: hsl(225, 100%, 98%);
   border-radius: 15px;
-  height: 75%;
+  height: 70%;
   width: 30rem;
 }
 
@@ -70,6 +71,7 @@ body {
 
 .title {
   color: hsl(223, 47%, 23%);
+  font-weight: 900;
 }
 
 .plan {
@@ -93,14 +95,22 @@ body {
 
 .annual-plan {
   color: hsl(223, 47%, 23%);
+  font-weight: 700;
 }
 
 .link {
   text-decoration: none;
-  color: blue;
+  color: hsl(245, 75%, 52%);
 }
 
 .pay {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  font-weight: 900;
 }
 
 .cancel {
